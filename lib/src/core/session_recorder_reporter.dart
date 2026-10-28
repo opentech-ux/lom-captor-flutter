@@ -4,9 +4,9 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:http/io_client.dart';
-import 'package:session_recorder_flutter/src/core/session_recorder_engine.dart';
-import 'package:session_recorder_flutter/src/models/models.dart';
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/core/session_recorder_engine.dart';
+import 'package:lom_captor_flutter/src/models/models.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
 
 @internal
 class SessionRecorderReporter {

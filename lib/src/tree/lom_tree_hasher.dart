@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
-import 'package:session_recorder_flutter/src/models/models.dart' show Root;
+import 'package:lom_captor_flutter/src/models/models.dart' show Root;
 
 class LomTreeHasher {
   /// Logical-pixel tolerance to ignore micro-movements.

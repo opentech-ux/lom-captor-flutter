@@ -3,7 +3,7 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/foundation.dart' show kDebugMode, kProfileMode;
 
-import 'package:session_recorder_flutter/src/constants/version_constant.dart';
+import 'package:lom_captor_flutter/src/constants/version_constant.dart';
 
 import 'models.dart';
 

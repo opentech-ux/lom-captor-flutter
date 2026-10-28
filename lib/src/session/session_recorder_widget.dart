@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-import 'package:session_recorder_flutter/src/collectors/gestures_collector.dart';
-import 'package:session_recorder_flutter/src/collectors/scroll_collector.dart';
-import 'package:session_recorder_flutter/src/observers/session_lifecycle_observer.dart';
-import 'package:session_recorder_flutter/src/observers/session_navigator_observer.dart';
-import 'package:session_recorder_flutter/src/session/session_recorder.dart';
-import 'package:session_recorder_flutter/src/tree/lom_tree_overlay.dart';
-import 'package:session_recorder_flutter/src/tree/tree_detector.dart';
-import 'package:session_recorder_flutter/src/utils/recorder_callback.dart';
+import 'package:lom_captor_flutter/src/collectors/gestures_collector.dart';
+import 'package:lom_captor_flutter/src/collectors/scroll_collector.dart';
+import 'package:lom_captor_flutter/src/observers/session_lifecycle_observer.dart';
+import 'package:lom_captor_flutter/src/observers/session_navigator_observer.dart';
+import 'package:lom_captor_flutter/src/session/session_recorder.dart';
+import 'package:lom_captor_flutter/src/tree/lom_tree_overlay.dart';
+import 'package:lom_captor_flutter/src/tree/tree_detector.dart';
+import 'package:lom_captor_flutter/src/utils/recorder_callback.dart';
 
 /// {@template session_recorder_widget}
 /// Defines the capture boundary for an application subtree.

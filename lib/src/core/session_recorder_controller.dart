@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
-import 'package:session_recorder_flutter/src/controllers/inactivity_detector.dart';
-import 'package:session_recorder_flutter/src/core/session_recorder_engine.dart';
-import 'package:session_recorder_flutter/src/core/session_recorder_reporter.dart';
+import 'package:lom_captor_flutter/src/controllers/inactivity_detector.dart';
+import 'package:lom_captor_flutter/src/core/session_recorder_engine.dart';
+import 'package:lom_captor_flutter/src/core/session_recorder_reporter.dart';
 
-import 'package:session_recorder_flutter/src/observers/session_navigator_observer.dart';
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/observers/session_navigator_observer.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
 
 /// Internal contract for managing lifecycle, timers, and navigation state.
 @internal

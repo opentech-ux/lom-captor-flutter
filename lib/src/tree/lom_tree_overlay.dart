@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
 
 import 'package:flutter/foundation.dart';
-import 'package:session_recorder_flutter/src/models/models.dart';
+import 'package:lom_captor_flutter/src/models/models.dart';
 
 /// Debug overlay that paints `[Root]` bounding boxes on top of the app.
 ///

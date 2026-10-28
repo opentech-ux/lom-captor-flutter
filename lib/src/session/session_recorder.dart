@@ -1,8 +1,8 @@
 import 'package:meta/meta.dart';
 
-import 'package:session_recorder_flutter/src/session/session_recorder_config.dart';
-import 'package:session_recorder_flutter/src/core/session_recorder_engine.dart';
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/session/session_recorder_config.dart';
+import 'package:lom_captor_flutter/src/core/session_recorder_engine.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PUBLIC FACADE

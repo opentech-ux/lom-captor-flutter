@@ -1,4 +1,4 @@
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
 
 /// Runs SDK-owned synchronous work only, never a host callback or async work.
 bool runRecorderCallback(String operation, void Function() callback) {

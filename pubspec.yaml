@@ -1,4 +1,4 @@
-name: session_recorder_flutter
+name: lom_captor_flutter
 description: A lightweight SDK for capturing user interactions and visible UI layout metadata during a Flutter application session.
 version: 2.0.1
 homepage: https://github.com/opentech-ux/session-recorder-flutter

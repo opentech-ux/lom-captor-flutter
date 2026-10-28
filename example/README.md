@@ -1,6 +1,6 @@
-# Session Recorder Flutter Example
+# LOM Captor Flutter Example
 
-This example demonstrates the main Session Recorder Flutter integration and
+This example demonstrates the main LOM Captor Flutter integration and
 runtime features.
 
 It includes:

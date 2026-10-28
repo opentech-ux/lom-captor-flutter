@@ -1,4 +1,4 @@
-import 'package:session_recorder_flutter/src/models/models.dart';
+import 'package:lom_captor_flutter/src/models/models.dart';
 
 List<TimedPosition> sampleTimedPositions(
   List<TimedPosition> positions, {

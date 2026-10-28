@@ -1,9 +1,9 @@
 import 'package:flutter/foundation.dart';
 
-import 'package:session_recorder_flutter/src/core/session_recorder_controller.dart';
-import 'package:session_recorder_flutter/src/session/session_recorder_config.dart';
-import 'package:session_recorder_flutter/src/core/session_recorder_context.dart';
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/core/session_recorder_controller.dart';
+import 'package:lom_captor_flutter/src/session/session_recorder_config.dart';
+import 'package:lom_captor_flutter/src/core/session_recorder_context.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
 
 @internal
 abstract interface class SessionRecorderEngineInternal {

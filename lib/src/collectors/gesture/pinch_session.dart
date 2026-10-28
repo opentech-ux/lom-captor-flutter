@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:session_recorder_flutter/src/collectors/gesture/gesture_sampling.dart';
-import 'package:session_recorder_flutter/src/models/models.dart';
+import 'package:lom_captor_flutter/src/collectors/gesture/gesture_sampling.dart';
+import 'package:lom_captor_flutter/src/models/models.dart';
 
 final class PinchSession {
   final int startTimestamp;

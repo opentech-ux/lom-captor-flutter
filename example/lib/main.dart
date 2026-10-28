@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 // ignore: depend_on_referenced_packages
-import 'package:session_recorder_flutter/session_recorder_flutter.dart';
+import 'package:lom_captor_flutter/lom_captor_flutter.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,10 +1,10 @@
-# Session Recorder Flutter
+# LOM Captor Flutter
 
-**Session Recorder Flutter** is a lightweight SDK for recording user interactions and the structure of the visible UI.
+**LOM Captor Flutter** is a lightweight SDK for recording user interactions and the structure of the visible UI.
 
 It captures gestures, scrolling, navigation context, and visible element geometry without recording screenshots, displayed text, or form values.
 
-> Session Recorder captures interaction and layout metadata, not screen content.
+> LOM Captor Flutter captures interaction and layout metadata, not screen content.
 
 ## Installation
 
@@ -12,13 +12,13 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  session_recorder_flutter: ^2.0.1
+  lom_captor_flutter: ^2.0.1
 ```
 
 Import the public API:
 
 ```dart
-import 'package:session_recorder_flutter/session_recorder_flutter.dart';
+import 'package:lom_captor_flutter/lom_captor_flutter.dart';
 ```
 
 ## Compatibility
@@ -75,7 +75,7 @@ The same approach can be used with `MaterialApp.router.builder`.
 
 ## Navigation
 
-Session Recorder works without a navigation observer.
+LOM Captor Flutter works without a navigation observer.
 
 For standard Flutter navigation, `SessionNavigatorObserver` is recommended to provide explicit navigation signals and improve capture timing after route changes.
 
@@ -188,7 +188,7 @@ Release builds send session data normally.
 
 ## Data Collection & Privacy
 
-Session Recorder captures interaction and layout metadata used to understand how users interact with the visible application UI.
+LOM Captor Flutter captures interaction and layout metadata used to understand how users interact with the visible application UI.
 
 ### Captured
 
@@ -206,7 +206,7 @@ Only UI elements that are currently materialized and visible are represented in 
 
 ### Not Captured
 
-Session Recorder does **not** capture:
+LOM Captor Flutter does **not** capture:
 
 * Screenshots or screen pixels.
 * Displayed text content.
@@ -220,7 +220,7 @@ A separate HTTP request is not sent for every user interaction.
 
 ## Error Reporting
 
-Session Recorder is designed so that internal SDK errors do not interrupt your application.
+LOM Captor Flutter is designed so that internal SDK errors do not interrupt your application.
 
 If needed, you can forward SDK errors to your existing monitoring service:
 
@@ -253,7 +253,7 @@ void reportRecorderError(
 }
 ```
 
-Session Recorder does not depend on any error-monitoring provider.
+LOM Captor Flutter does not depend on any error-monitoring provider.
 
 ## Obfuscated Builds
 
@@ -265,9 +265,9 @@ Some custom or third-party widget type names may appear obfuscated.
 
 ## Migrating from V1
 
-V1 was distributed directly from GitHub.
+V1 of `session_recorder_flutter` was distributed directly from GitHub.
 
-Version `2.0.0` is the first version distributed through pub.dev.
+Version `2.0.0` was the first version of `session_recorder_flutter` distributed through pub.dev. The current package is `lom_captor_flutter`.
 
 ### Dependency
 
@@ -283,7 +283,7 @@ V2:
 
 ```yaml
 dependencies:
-  session_recorder_flutter: ^2.0.1
+  lom_captor_flutter: ^2.0.1
 ```
 
 ### Import
@@ -297,7 +297,7 @@ import 'package:session_recorder_flutter/session_recorder.dart';
 V2:
 
 ```dart
-import 'package:session_recorder_flutter/session_recorder_flutter.dart';
+import 'package:lom_captor_flutter/lom_captor_flutter.dart';
 ```
 
 ### Initialization
@@ -341,4 +341,4 @@ V2 introduces a visible-only UI capture model, improved gesture and scroll recor
 
 Navigation, lifecycle handling, session reporting, and UI-change capture are also more robust.
 
-Applications that consume Session Recorder payloads directly should review the V2 protocol documentation before upgrading.
+Applications that consume LOM Captor Flutter payloads directly should review the V2 protocol documentation before upgrading.

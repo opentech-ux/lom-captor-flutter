@@ -3,14 +3,14 @@ import 'dart:collection';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart' show RenderStack;
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
 
 import 'package:uuid/uuid.dart';
 
-import 'package:session_recorder_flutter/src/tree/lom_tree_hasher.dart';
-import 'package:session_recorder_flutter/src/tree/lom_tree_config.dart';
-import 'package:session_recorder_flutter/src/models/models.dart';
-import 'package:session_recorder_flutter/src/utils/math_utils.dart';
+import 'package:lom_captor_flutter/src/tree/lom_tree_hasher.dart';
+import 'package:lom_captor_flutter/src/tree/lom_tree_config.dart';
+import 'package:lom_captor_flutter/src/models/models.dart';
+import 'package:lom_captor_flutter/src/utils/math_utils.dart';
 
 /// Captures the visible widget tree as a list of [Root]s.
 class LomTreeInspector {

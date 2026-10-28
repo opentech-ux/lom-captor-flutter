@@ -2,10 +2,10 @@ import 'dart:async';
 
 import 'package:flutter/widgets.dart';
 
-import 'package:session_recorder_flutter/src/constants/gestures_constants.dart';
-import 'package:session_recorder_flutter/src/models/models.dart';
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
-import 'package:session_recorder_flutter/src/utils/recorder_callback.dart';
+import 'package:lom_captor_flutter/src/constants/gestures_constants.dart';
+import 'package:lom_captor_flutter/src/models/models.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/utils/recorder_callback.dart';
 
 /// Capture causes ordered by conceptual precedence.
 ///

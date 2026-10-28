@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:session_recorder_flutter/src/session/session_recorder.dart';
-import 'package:session_recorder_flutter/src/utils/recorder_callback.dart';
+import 'package:lom_captor_flutter/src/session/session_recorder.dart';
+import 'package:lom_captor_flutter/src/utils/recorder_callback.dart';
 
 /// {@template session_observer}
 /// Recommended, optional [NavigatorObserver] for explicit navigation signals

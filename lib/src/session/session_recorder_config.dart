@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
 
 /// Configuration for the session context.
 ///

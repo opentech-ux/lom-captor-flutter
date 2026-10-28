@@ -1,11 +1,11 @@
 import 'package:flutter/foundation.dart';
-import 'package:session_recorder_flutter/src/core/session_recorder_engine.dart';
+import 'package:lom_captor_flutter/src/core/session_recorder_engine.dart';
 
-import 'package:session_recorder_flutter/src/models/models.dart';
-import 'package:session_recorder_flutter/src/tree/tree_detector.dart';
-import 'package:session_recorder_flutter/src/utils/anonymous_route.dart';
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
-import 'package:session_recorder_flutter/src/utils/recorder_callback.dart';
+import 'package:lom_captor_flutter/src/models/models.dart';
+import 'package:lom_captor_flutter/src/tree/tree_detector.dart';
+import 'package:lom_captor_flutter/src/utils/anonymous_route.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/utils/recorder_callback.dart';
 
 /// Internal contract for session state, tree analysis, and data recording.
 @internal

@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
-import 'package:session_recorder_flutter/src/constants/gestures_constants.dart';
+import 'package:lom_captor_flutter/src/constants/gestures_constants.dart';
 
 import '../models/models.dart'
     show PointerTrace, PinchMetricsBaseline, PinchStats;

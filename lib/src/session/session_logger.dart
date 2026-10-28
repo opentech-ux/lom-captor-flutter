@@ -1,7 +1,7 @@
 import 'dart:developer' as developer;
 
 import 'package:flutter/foundation.dart';
-import 'package:session_recorder_flutter/session_recorder_flutter.dart';
+import 'package:lom_captor_flutter/lom_captor_flutter.dart';
 
 enum SessionLogLevel { error, warning, info, verbose }
 

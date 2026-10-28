@@ -1,3 +1,13 @@
+## 2.0.1 — lom_captor_flutter
+
+* First release under the new package name: `lom_captor_flutter` replaces `session_recorder_flutter` at the same version `2.0.1`, without changes to SDK behavior or public API symbols.
+* Replace the dependency with `lom_captor_flutter: ^2.0.1` and import `package:lom_captor_flutter/lom_captor_flutter.dart`.
+* `libraryVersion` remains `2.0.1`.
+
+# Previous package history: session_recorder_flutter
+
+All releases below belong to `session_recorder_flutter`; their historical imports and links are preserved.
+
 ## 2.0.1
 
 ### Changed

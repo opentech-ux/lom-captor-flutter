@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:session_recorder_flutter/src/core/session_recorder_engine.dart';
-import 'package:session_recorder_flutter/src/models/models.dart';
-import 'package:session_recorder_flutter/src/session/session_logger.dart';
-import 'package:session_recorder_flutter/src/tree/lom_capture_scheduler.dart';
-import 'package:session_recorder_flutter/src/tree/lom_tree_inspector.dart';
-import 'package:session_recorder_flutter/src/utils/recorder_callback.dart';
+import 'package:lom_captor_flutter/src/core/session_recorder_engine.dart';
+import 'package:lom_captor_flutter/src/models/models.dart';
+import 'package:lom_captor_flutter/src/session/session_logger.dart';
+import 'package:lom_captor_flutter/src/tree/lom_capture_scheduler.dart';
+import 'package:lom_captor_flutter/src/tree/lom_tree_inspector.dart';
+import 'package:lom_captor_flutter/src/utils/recorder_callback.dart';
 
 /// Watches for widget tree structural changes and executes LOM captures.
 class TreeDetector {
