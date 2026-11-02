@@ -1,7 +1,7 @@
 name: lom_captor_flutter
 description: A lightweight SDK for capturing user interactions and visible UI layout metadata during a Flutter application session.
 version: 2.0.1
-homepage: https://github.com/opentech-ux/session-recorder-flutter
+homepage: https://github.com/opentech-ux/lom-captor-flutter
 
 environment:
   sdk: ">=3.4.0 <4.0.0"
